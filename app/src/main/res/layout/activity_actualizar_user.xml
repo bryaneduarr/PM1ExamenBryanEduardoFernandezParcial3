@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActualizarUser">
+
+    <EditText
+        android:id="@+id/descripcionEntrevistaEditText"
+        android:layout_width="319dp"
+        android:layout_height="89dp"
+        android:layout_marginTop="32dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="text"
+        android:hint="@string/agregarDescripcion"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/escucharAudioButton"
+        tools:ignore="LabelFor" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="172dp"
+        android:layout_height="176dp"
+        android:layout_marginTop="32dp"
+        android:contentDescription="@string/descripcionLogo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/perosnalogo" />
+
+    <Button
+        android:id="@+id/escucharAudioButton"
+        android:layout_width="185dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="#CA6A6A"
+        android:text="@string/escucharAudio"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <EditText
+        android:id="@+id/nombrePeriodistaEditText"
+        android:layout_width="319dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="32dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="text"
+        android:hint="@string/nombreDelPeriodista"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/descripcionEntrevistaEditText"
+        tools:ignore="LabelFor" />
+
+    <Button
+        android:id="@+id/asignarFechaButton"
+        android:layout_width="156dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="#FF9800"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nombrePeriodistaEditText" />
+
+    <Button
+        android:id="@+id/eliminarEntrevistasButton"
+        android:layout_width="220dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#F44336"
+        android:text="@string/eliminar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/actualizarEntrevistaButton" />
+
+    <Button
+        android:id="@+id/actualizarEntrevistaButton"
+        android:layout_width="220dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="#009688"
+        android:text="@string/actualizar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/asignarFechaButton" />
+
+    <TextView
+        android:id="@+id/asignarFechaTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/asignarFecha"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/asignarFechaButton"
+        app:layout_constraintStart_toStartOf="@+id/asignarFechaButton"
+        app:layout_constraintTop_toTopOf="@+id/asignarFechaButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "43425812467",
+    "project_id": "pm1examen3p",
+    "storage_bucket": "pm1examen3p.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:43425812467:android:371441a4ab96975b624c86",
+        "android_client_info": {
+          "package_name": "com.example.bryan_eduardo_fernandez_examen_parcial_3_periodo_2_programacion_movil_1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfqZNJSQFxaaZEw0-QSuejdNdDaQnGGMA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

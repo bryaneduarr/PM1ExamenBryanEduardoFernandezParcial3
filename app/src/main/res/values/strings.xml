@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">bryan_eduardo_fernandez_examen_parcial_3_periodo_2_programacion_movil_1</string>
+    <string name="agregarDescripcion">Descripcion de la Entrevista</string>
+    <string name="nombreDelPeriodista">Nombre del Periodista</string>
+    <string name="grabarAudio">Grabar Audio</string>
+    <string name="asignarFecha">Asignar Fecha</string>
+    <string name="guardar">Guardar Entrevista</string>
+    <string name="verEntrevistas">Ver Entrevistas</string>
+    <string name="descripcionLogo">logo persona</string>
+    <string name="eliminar">Eliminar Entrevista</string>
+    <string name="actualizar">Actualizar</string>
+    <string name="escucharAudio">Escuchar Audio</string>
+</resources>
